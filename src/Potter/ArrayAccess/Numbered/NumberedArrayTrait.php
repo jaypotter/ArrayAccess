@@ -30,9 +30,10 @@ trait NumberedArrayTrait
     
     final public function valid(): bool
     {
-        return $this->offsetExists($this->index);
+        return $this->index <= $this->getLength();
     }
     
+    abstract public function getLength(): int;
     abstract public function offsetExists(mixed $offset): bool;
     abstract public function offsetGet(mixed $offset): mixed;
 }
