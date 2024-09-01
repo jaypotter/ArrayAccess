@@ -20,12 +20,12 @@ trait NumberedArrayTrait
     
     final public function next(): void
     {
-        $this->index++;
+        ++$this->index;
     }
         
     final public function rewind(): void
     {
-        $this->index--;
+        $this->index = 0;
     }
     
     final public function valid(): bool
