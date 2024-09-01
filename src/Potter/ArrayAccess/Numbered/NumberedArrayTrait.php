@@ -30,7 +30,7 @@ trait NumberedArrayTrait
     
     final public function valid(): bool
     {
-        return $this->index > -1 && $this->index < $this->getLength();
+        return ($this->index > -1) && ($this->index < $this->getLength());
     }
     
     abstract public function getLength(): int;
