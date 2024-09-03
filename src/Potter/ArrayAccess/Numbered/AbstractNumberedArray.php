@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Potter\ArrayAccess\Numbered;
 
-abstract class AbstractNumberedArray implements NumberedArrayInterface
+use Potter\ArrayAccess\AbstractArrayAccess;
+
+abstract class AbstractNumberedArray extends AbstractArrayAccess implements NumberedArrayInterface
 {
     abstract public function getLength(): int;
 }
