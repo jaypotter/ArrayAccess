@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace Potter\ArrayAccess\Numbered;
 
-use Potter\ArrayAccess\ArrayAccessInterface;
-use Potter\Iterator\IteratorInterface;
+use Potter\{
+    ArrayAccess\ArrayAccessInterface, 
+    Iterator\IteratorInterface
+};
 
 interface NumberedArrayInterface extends ArrayAccessInterface, IteratorInterface
 {
