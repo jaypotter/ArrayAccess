@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": "^8.3",
-        "potter/iterator": "^0.0.1"
+        "potter/iterator": "dev-main"
     },
     "license": "MIT",
     "autoload": {
@@ -18,5 +18,5 @@
             "email": "j@ypotter.ca"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
