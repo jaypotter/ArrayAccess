@@ -1,0 +1,21 @@
+{
+    "name": "potter/array-access",
+    "type": "library",
+    "require": {
+        "php": "^8.5.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\ArrayAccess\\": "src/Potter/ArrayAccess/"
+        }
+    },
+    "homepage": "https://github.com/jaypotter/ArrayAccess",
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "stable"
+}
